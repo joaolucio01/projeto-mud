@@ -1,0 +1,42 @@
+@charset "UTF-8";
+ 
+/* Modo de impressora */
+
+    @media print {
+         main section#print{
+        display: block;
+        
+    }
+    main section#redes{
+        display: none;
+    }
+
+    div#printredes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: baseline;
+    }
+
+    #print h1{
+        font-size: 36px;
+        padding: 29px;
+        text-align: center;
+        margin:10px 10px ;
+    }
+    
+    .divredes{
+        display: flex;
+    }
+
+    .divredes img{
+        margin-bottom: 35px;
+        margin-right: 20px;
+    }
+}
+   /* Modelo para tablet */
+   @media screen and (min-width:769px) and (max-width:1024px) {
+    
+   }
+   

@@ -32,6 +32,10 @@ main{
     height: 100vh;
 }
 
+section#print{
+    display: none;
+}
+
 section#telefone{
     position: absolute;
     top: 50%;
@@ -58,7 +62,7 @@ section#redes{
    text-align: right;
 }
 
-section#redes img{
+section#redes img, #print img{
     z-index: 9999;
     position: relative;
     width: 50px;
@@ -70,3 +74,4 @@ section#redes img{
 section#redes img:hover{
     border: 2px solid  rgba(255, 255, 255, 0.256);
 }
+
