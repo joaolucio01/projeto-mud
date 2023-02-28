@@ -34,9 +34,35 @@
         margin-bottom: 35px;
         margin-right: 20px;
     }
+    #print img{
+        z-index: 9999;
+        position: relative;
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.435);
+        box-sizing: border-box;
+    }
 }
+
    /* Modelo para tablet */
-   @media screen and (min-width:769px) and (max-width:1024px) {
-    
-   }
+   @media screen and (min-width:768px) and (max-width:1024px) {
+    section#redes img {
+        width: 65px;
+    }
+    section#telefone{
+        height: 605px;
+        width: 300px;
+        background-size: cover;
+    }
+    iframe#tela{
+        top: 79px;
+        left: 22px;
+        width: 258px;
+        height: 453px;
+    }
+}
+
    
+   
+  
+  
