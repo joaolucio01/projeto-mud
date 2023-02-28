@@ -45,6 +45,24 @@
 }
 
    /* Modelo para tablet */
+   @media screen and (min-width:481px) and (max-width:767px) {
+    section#redes img{
+        width:58px;
+    }
+    section#telefone{
+        height: 500px;
+        width: 250px;
+        background-size: cover;
+    }
+    iframe#tela {
+        position: relative;
+        top: 65px;
+        left: 17px;
+        width: 215px;
+        height: 380px;
+    }
+}
+
    @media screen and (min-width:768px) and (max-width:1024px) {
     section#redes img {
         width: 65px;
@@ -62,7 +80,38 @@
     }
 }
 
-   
-   
-  
-  
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    section#redes img {
+        width: 70px;
+    }
+    iframe#tela {
+        position: relative;
+        top: 80px;
+        left: 22px;
+        width: 266px;
+        height: 473px;
+    }
+    section#telefone{
+        width: 310px;
+        height: 619px;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    section#redes img {
+        width: 80px;
+    }
+    iframe#tela {
+        position: relative;
+        top: 87px;
+        left: 23px;
+        width: 288px;
+        height:  512px;
+    }
+    section#telefone{
+        width: 334px;
+        height: 678px;
+        background-size: cover;
+    }
+}
