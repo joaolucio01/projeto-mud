@@ -82,7 +82,7 @@
 
 @media screen and (min-width:1024px) and (max-width:1200px) {
     section#redes img {
-        width: 70px;
+        width: 65px;
     }
     iframe#tela {
         position: relative;
@@ -98,3 +98,23 @@
     }
 }
 
+@media screen and (min-width: 1201px){
+
+section#redes img {
+    width: 65px;
+}
+section#telefone {
+    width: 260px;
+    height: 530px;
+    background-size: cover;
+}
+
+iframe#tela {
+    position: relative;
+    top: 67px;
+    left: 16px;
+    width: 229px;
+    height: 400px;
+}
+
+}
