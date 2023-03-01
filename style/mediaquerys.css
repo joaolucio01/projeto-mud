@@ -98,20 +98,3 @@
     }
 }
 
-@media screen and (min-width:1201px) {
-    section#redes img {
-        width: 80px;
-    }
-    iframe#tela {
-        position: relative;
-        top: 87px;
-        left: 23px;
-        width: 288px;
-        height:  512px;
-    }
-    section#telefone{
-        width: 334px;
-        height: 678px;
-        background-size: cover;
-    }
-}
